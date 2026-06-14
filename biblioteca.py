@@ -89,7 +89,7 @@ class Biblioteca(metaclass=MetaSingleton):
     def listar_usuarios(self):
         if self.usuarios:
             for usuario in self.usuarios:
-                print(usuario.mostrar_info())
+                print(usuario.mostrar_info_usuario())
         else:
             print("No hay usuarios registrados")
             

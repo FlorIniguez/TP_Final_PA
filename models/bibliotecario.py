@@ -6,9 +6,9 @@ class Bibliotecario(Usuario):
         super().__init__(nombre, apellido, DNI, correo_electronico)
         self.legajo = legajo
         
-    def mostrar_info(self):
+    def mostrar_info_usuario(self):
         return (
-            f"Bibliotecario: {self.nombre} {self.apellido} "
+            f"Bibliotecario: {self._nombre} {self._apellido}\n "
             f"Legajo: {self.legajo}"
         )
 

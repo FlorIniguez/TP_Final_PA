@@ -9,9 +9,9 @@ class Socio(Usuario):
         self.nro_socio = Socio.contador
         Socio.contador +=1
         
-    def mostrar_info(self):
+    def mostrar_info_usuario(self):
         return (
-            f"Socio: {self.nombre} {self.apellido}\n"
+            f"Socio: {self._nombre} {self._apellido}\n"
             f"Número de socio: {self.nro_socio}"
         )
         

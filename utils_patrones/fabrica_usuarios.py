@@ -12,5 +12,5 @@ class FabricaUsuarios:
 
         elif tipo.lower() == "bibliotecario":
             if legajo is None:
-                raise ValueError("Falta legajo para crear Bibliotecario")
+                print("Falta legajo para crear Bibliotecario")
             return Bibliotecario(nombre, apellido, dni, email, legajo)

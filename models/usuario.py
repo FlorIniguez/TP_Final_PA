@@ -3,13 +3,13 @@ from abc import ABC, abstractmethod
 
 class Usuario(ABC):
     def __init__(self,nombre,apellido,dni,correo_electronico):
-        self.nombre = nombre
-        self.apellido = apellido
-        self.dni = dni
-        self.correo_electronico = correo_electronico
+        self._nombre = nombre
+        self._apellido = apellido
+        self._dni = dni
+        self._correo_electronico = correo_electronico
         
     @abstractmethod
-    def mostrar_info(self):
+    def mostrar_info_usuario(self):
         pass
     
     @abstractmethod
