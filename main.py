@@ -1,13 +1,15 @@
 from biblioteca import Biblioteca
 from gestor_prestamos import GestorPrestamos
-from menu import mostrar_menu
+from ui_menu import mostrar_menu
 from models.libro import Libro
-from utils_patrones.fabrica_usuarios import FabricaUsuarios
+from utils.fabrica_usuarios import FabricaUsuarios
 
 
 def main():
     biblioteca = Biblioteca("Central", "Buenos Aires")
+    #Carga de libros y usuarios para prueba
     biblioteca.cargar_libros_iniciales()
+    biblioteca.cargar_usuarios_iniciales()
 
     gestor_prestamos = GestorPrestamos()
 

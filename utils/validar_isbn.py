@@ -1,8 +1,7 @@
 #Antes de agregar libro valida el ISBN
 def validar_isbn(func):
-
     def wrapper(self, libro):
-        #isdigit primero para ver que todos los digitos sean numeros
+    #isdigit primero para ver que todos los digitos sean numeros
         if not libro.isbn.isdigit():
             return "ISBN inválido"
     #Validar longiud del codigo isbn

@@ -1,4 +1,5 @@
 from models.libro import Libro
+from utils_patrones.fabrica_usuarios import FabricaUsuarios
 from utils_patrones.validar_isbn import validar_isbn
 from utils_patrones.meta_singleton import MetaSingleton
 
@@ -90,6 +91,8 @@ class Biblioteca(metaclass=MetaSingleton):
         if self.usuarios:
             for usuario in self.usuarios:
                 print(usuario.mostrar_info_usuario())
+                print(f"Límite de préstamos: {usuario.cantidad_maxima_prestamos()}")
+                print("----------------------")
         else:
             print("No hay usuarios registrados")
             
@@ -105,3 +108,14 @@ class Biblioteca(metaclass=MetaSingleton):
         for titulo, autor, isbn, anio, paginas in libros_iniciales:
             libro = Libro(titulo, autor, isbn, anio, paginas)
             self.libros.append(libro)
+            
+    def cargar_usuarios_iniciales(self):
+        self.usuarios.append(
+            FabricaUsuarios.crear_usuario("socio", "Ana", "Gomez", "30111222", "ana@mail.com")
+        )
+        self.usuarios.append(
+            FabricaUsuarios.crear_usuario("socio", "Luis", "Perez", "28999111", "luis@mail.com")
+        )
+        self.usuarios.append(
+            FabricaUsuarios.crear_usuario("bibliotecario", "Maria", "Lopez", "20111222", "maria@mail.com", legajo="B001")
+        )

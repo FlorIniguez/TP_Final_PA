@@ -8,7 +8,7 @@ class Bibliotecario(Usuario):
         
     def mostrar_info_usuario(self):
         return (
-            f"Bibliotecario: {self._nombre} {self._apellido}\n "
+            f"Bibliotecario: {self._nombre} {self._apellido}\n"
             f"Legajo: {self.legajo}"
         )
 
