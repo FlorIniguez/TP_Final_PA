@@ -31,6 +31,7 @@ Se aplican patrones de diseño y conceptos de POO.
 python main.py
 
 ---
+
 ## 📦 Funcionalidades
 
 ### 📚 Libros
