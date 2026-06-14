@@ -1,52 +1,48 @@
 📚 Sistema de Biblioteca
 📌 Descripción
 
-Sistema de gestión de biblioteca desarrollado en Python. Permite administrar libros, usuarios y préstamos mediante programación orientada a objetos.
+Sistema de gestión de biblioteca desarrollado en Python utilizando Programación Orientada a Objetos.
 
-El sistema permite realizar operaciones de alta, baja, modificación y consulta, además de controlar préstamos y devoluciones con validaciones de negocio.
+Permite administrar libros, usuarios y préstamos mediante operaciones de alta, baja, modificación y consulta, incluyendo control de disponibilidad y reglas de negocio.
 
-Se aplican patrones de diseño y conceptos avanzados de POO.
+Se aplican patrones de diseño y conceptos de POO.
 
 👥 Integrantes
 Marcelo Albarenque
 Cristian Matías Torres
 María Florencia Iñiguez Trejo
 Lucas Juarez
-
-🚀 Instrucciones de ejecución
+🚀 Ejecución del proyecto
 Requisitos
 Python 3.10 o superior
-Ejecución del sistema
+Ejecutar
 python main.py
 📦 Funcionalidades
-📚 Gestión de libros
-Agregar libro
+📚 Libros
+Agregar libros
 Listar libros
 Buscar por ISBN
-Modificar libro
-Eliminar libro
-Ver información de un libro
-👤 Gestión de usuarios
+Modificar libros
+Eliminar libros
+Libros iniciales precargados
+👤 Usuarios
 Crear socio
 Crear bibliotecario
-Listar usuarios
-Modificar usuario
-Eliminar usuario
+Listar usuarios (con reporte de tipo y límite de préstamos)
+Modificar usuarios
+Eliminar usuarios
 🔄 Préstamos
-Registrar préstamo de libro
+Registrar préstamo
 Registrar devolución
-Control de disponibilidad de libros
+Control de disponibilidad
 Límite de préstamos por tipo de usuario
 🏗️ Conceptos aplicados
-Programación Orientada a Objetos (POO): uso de clases, objetos y encapsulación.
-Herencia: Socio y Bibliotecario heredan de Usuario.
-Polimorfismo: distintos comportamientos según tipo de usuario, mostrar info usuario y cantidad máxima de prestamos.
-Patrones de diseño:
-Singleton: clase Biblioteca
-Factory Method: creación de usuarios
-Decorador: validación de ISBN antes de agregar libros.
+Programación Orientada a Objetos (POO)
+Herencia (Socio y Bibliotecario heredan de Usuario)
+Polimorfismo (mostrar_info_usuario, cantidad_maxima_prestamos)
+Patrón Singleton (Biblioteca)
+Factory Method (creación de usuarios)
+Decorador (validación de ISBN)
 🧠 Notas
-El sistema funciona por consola.
-La biblioteca carga libros iniciales automáticamente.
-Se controla la disponibilidad de los libros en préstamos.
-El sistema evita préstamos duplicados del mismo libro.
+Sistema por consola
+Libros y usuarios precargados para pruebas
