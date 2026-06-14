@@ -5,7 +5,7 @@
 
 Sistema de gestión de biblioteca desarrollado en Python utilizando Programación Orientada a Objetos.
 
-Permite administrar libros, usuarios y préstamos mediante operaciones de alta, baja, modificación y consulta.
+Permite administrar libros, usuarios y préstamos mediante operaciones de alta, baja, modificación, eliminación y consulta.
 
 Se aplican patrones de diseño y conceptos de POO.
 
