@@ -29,8 +29,10 @@ Se aplican patrones de diseño y conceptos de POO.
 
 ```bash
 python main.py
+
 ---
-### 📦 Funcionalidades
+
+## 📦 Funcionalidades
 ### 📚 Libros
 Agregar libros
 Listar libros
@@ -38,20 +40,26 @@ Buscar por ISBN
 Modificar libros
 Eliminar libros
 Libros iniciales precargados
+
 ---
+
 ### 👤 Usuarios
 Crear socio
 Crear bibliotecario
 Listar usuarios (con reporte de tipo y límite de préstamos)
 Modificar usuarios
 Eliminar usuarios
+
 ---
+
 ### 🔄 Préstamos
 Registrar préstamo
 Registrar devolución
 Control de disponibilidad
 Límite de préstamos por tipo de usuario
+
 ---
+
 ### 🏗️ Conceptos aplicados
 Programación Orientada a Objetos (POO)
 Herencia (Socio y Bibliotecario heredan de Usuario)
