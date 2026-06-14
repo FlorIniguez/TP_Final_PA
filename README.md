@@ -30,7 +30,6 @@ Se aplican patrones de diseño y conceptos de POO.
 ```bash
 python main.py
 
----
 
 ## 📦 Funcionalidades
 
