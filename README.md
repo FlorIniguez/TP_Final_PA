@@ -31,42 +31,47 @@ Se aplican patrones de diseño y conceptos de POO.
 python main.py
 
 ---
-
 ## 📦 Funcionalidades
+
 ### 📚 Libros
-Agregar libros
-Listar libros
-Buscar por ISBN
-Modificar libros
-Eliminar libros
-Libros iniciales precargados
+- Agregar libros  
+- Listar libros  
+- Buscar por ISBN  
+- Modificar libros  
+- Eliminar libros  
+- Libros iniciales precargados  
 
 ---
 
 ### 👤 Usuarios
-Crear socio
-Crear bibliotecario
-Listar usuarios (con reporte de tipo y límite de préstamos)
-Modificar usuarios
-Eliminar usuarios
+- Crear socio  
+- Crear bibliotecario  
+- Listar usuarios (con reporte de tipo y límite de préstamos)  
+- Modificar usuarios  
+- Eliminar usuarios  
 
 ---
 
 ### 🔄 Préstamos
-Registrar préstamo
-Registrar devolución
-Control de disponibilidad
-Límite de préstamos por tipo de usuario
+- Registrar préstamo  
+- Registrar devolución  
+- Control de disponibilidad  
+- Límite de préstamos por tipo de usuario  
 
 ---
 
-### 🏗️ Conceptos aplicados
-Programación Orientada a Objetos (POO)
-Herencia (Socio y Bibliotecario heredan de Usuario)
-Polimorfismo (mostrar_info_usuario, cantidad_maxima_prestamos)
-Patrón Singleton (Biblioteca)
-Factory Method (creación de usuarios)
-Decorador (validación de ISBN)
-🧠 Notas
-Sistema por consola
-Libros y usuarios precargados para pruebas
+## 🏗️ Conceptos aplicados
+
+- Programación Orientada a Objetos (POO)  
+- Herencia (`Socio` y `Bibliotecario` heredan de `Usuario`)  
+- Polimorfismo (`mostrar_info_usuario`, `cantidad_maxima_prestamos`)  
+- Patrón Singleton (`Biblioteca`)  
+- Factory Method (creación de usuarios)  
+- Decorador (validación de ISBN)  
+
+---
+
+## 🧠 Notas
+
+- Sistema por consola  
+- Libros y usuarios precargados para pruebas  
