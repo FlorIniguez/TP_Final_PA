@@ -11,7 +11,7 @@ Se aplican patrones de diseño y conceptos de POO.
 
 ---
 
-## 👥 Integrantes
+## 👥 Integrantes (Comisión 4)
 
 - Marcelo Albarenque  
 - Cristian Matías Torres  
